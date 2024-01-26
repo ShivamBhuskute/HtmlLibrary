@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    /* Ensure full height for gradient */
+    background: linear-gradient(to bottom, skyblue, darkblue);
+    /* Simplified gradient */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    /* Allow gradient to show through */
+    overflow: hidden;
+    border-radius: 20%;
+    border: 3px solid black;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#main-heading {
+    font-size: 24px;
+    /* Adjust as needed */
+    font-weight: bold;
+    color: black;
+    /* Other desired styles */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px auto;
+    width: 300px;
+    border: 1px solid black;
+    background: #f0f0f0;
+
+}
+
+
+.list-names {
+    margin-bottom: 1px;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+li:last-child {
+    border-bottom: none;
+    /* Separate top border */
+}

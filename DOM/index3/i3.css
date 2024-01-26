@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+.circle-container {
+    /* Optional styling for the container of circles */
+    display: flex;
+}
+
+.circle {
+    /* Optional styling for the circle container */
+    margin-right: 10px;
+}
+
+.box1,
+.box2,
+.box3 {
+    /* Optional styling for the circles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /* Include border and padding in the width and height */
+}
