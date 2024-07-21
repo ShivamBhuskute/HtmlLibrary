@@ -6,7 +6,7 @@ let person = document.querySelector('.person');
 
 
 const quotes = [{
-    quote: '"Are you lidding me"',
+    quote: '"Are you kidding me"',
     person: 'Shivam'
 },
 {
