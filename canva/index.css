@@ -1,0 +1,14 @@
+canvas {
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#button {
+    cursor: pointer;
+}
