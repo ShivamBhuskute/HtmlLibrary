@@ -1,0 +1,44 @@
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(10, 32px);
+    grid-template-rows: repeat(10, 32px);
+}
+
+.tile {
+    width: 32px;
+    height: 32px;
+}
+
+/* .grass {
+    background-image: url("grass.png");
+}
+
+.water {
+    background-image: url("water.png");
+}
+
+.tree {
+    background-image: url("tree.png");
+}
+
+.player {
+    background-image: url("player-sprite.png");
+    grid-column: 5;
+    grid-row: 5;
+} */ 
+.grass {
+    background-color: green;
+}
+
+.water {
+    background-color: blue;
+}
+
+.tree {
+    background-color: darkgreen;
+}
+
+.player {
+    background-color: red;
+    border-radius: 50%;
+}
